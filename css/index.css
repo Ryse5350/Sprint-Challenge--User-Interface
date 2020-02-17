@@ -144,3 +144,119 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.home-jumbo {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.hdr-nv {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 2vh 0;
+}
+
+.hdr-nv a {
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80%;
+}
+.about-jumbo {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.about-heading {
+    border-bottom: 1px dashed black;
+    padding: 2%;
+}
+.about-heading p {
+    margin-bottom: 2vh;
+}
+.about-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+}
+
+.about-body section {
+    width: 45%;
+    margin-bottom: 6vh;
+    border-bottom: 1px dashed black;
+}
+
+.about-body button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 120%;
+    padding: 2% 8%;
+    margin: 2vh 0;
+}
+
+.about-body img {
+    max-width: 100%;
+    margin-bottom: 2vh;
+}
+
+.about-bottom {
+    margin-bottom: 2vh;
+    padding-left: 2%;
+}
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
+@keyframes navigation {
+    from {
+        color: black;
+        font-size:100%;
+    }
+    to {
+        color: crimson;
+        font-size: 150%;
+    }
+}
+
+.links a:hover {
+    color: crimson;
+    animation-name: navigation;
+    animation-duration: 0.5s;
+    font-size: 150%;
+}
